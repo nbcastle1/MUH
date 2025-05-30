@@ -1,0 +1,1 @@
+Trial split into 2 parts. Hit stop, made time and score reset but not stride number.
