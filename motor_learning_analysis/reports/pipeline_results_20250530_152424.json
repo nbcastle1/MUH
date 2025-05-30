@@ -1,0 +1,76 @@
+{
+  "config": {
+    "min_complete_strides": 20,
+    "force_reprocess": false,
+    "max_target_size": 0.31,
+    "max_strides": 415,
+    "motor_noise_threshold": 0.3,
+    "success_rate_threshold": 0.68,
+    "required_trial_types": [
+      "pref",
+      "invis"
+    ],
+    "plot_individual_max_subjects": null,
+    "figure_dpi": 300,
+    "figure_format": "png",
+    "alpha_level": 0.05,
+    "correlation_method": "pearson",
+    "age_bins": [
+      7,
+      10,
+      13,
+      16,
+      18
+    ],
+    "age_labels": [
+      "7-10",
+      "10-13",
+      "13-16",
+      "16-18"
+    ],
+    "save_processed_data": true,
+    "save_metrics_csv": true,
+    "save_statistics_json": true,
+    "generate_html_report": true
+  },
+  "timestamp": "20250530_152424",
+  "steps_completed": [
+    "load_data",
+    "calculate_metrics",
+    "quality_control",
+    "statistical_analysis",
+    "generate_plots",
+    "export_results"
+  ],
+  "step_results": {
+    "load_data": {
+      "success": true,
+      "n_subjects": 50,
+      "note": "Using mock data - integrate with actual data manager"
+    },
+    "calculate_metrics": {
+      "success": false,
+      "error": "No module named 'muh_reorg2'"
+    },
+    "quality_control": {
+      "success": false,
+      "error": "'NoneType' object has no attribute 'columns'"
+    },
+    "statistical_analysis": {
+      "success": false,
+      "error": "'NoneType' object has no attribute 'columns'"
+    },
+    "generate_plots": {
+      "success": false,
+      "error": "'NoneType' object has no attribute 'columns'"
+    },
+    "export_results": {
+      "success": true,
+      "exported_files": [
+        "motor_learning_analysis\\reports\\analysis_report_20250530_152424.html",
+        "motor_learning_analysis\\reports\\quality_report_20250530_152424.json"
+      ],
+      "n_files": 2
+    }
+  }
+}
