@@ -1,0 +1,11 @@
+{
+  "motor_noise_filter": {
+    "threshold": 0.3,
+    "before": 66,
+    "after": 64,
+    "excluded": 2,
+    "exclusion_rate": 0.030303030303030304
+  },
+  "final_sample_size": 64,
+  "n_success_rate_measures": 6
+}
