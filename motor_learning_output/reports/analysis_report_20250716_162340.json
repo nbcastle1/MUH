@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250716_162340",
+  "n_subjects": 66,
+  "analyses": {
+    "regression": {
+      "model": "Pipeline",
+      "metrics": {
+        "r2": -0.21549667277828033,
+        "rmse": 0.277412115181143,
+        "n_samples": 64
+      },
+      "feature_importances": {
+        "age": 0.13891767183086462,
+        "mot_noise": 0.04035016291147269,
+        "pref_asymmetry": 0.07306151507955669
+      }
+    },
+    "anova": {
+      "error": "'StatisticalAnalyzer' object has no attribute 'run_repeated_measures_anova'"
+    }
+  },
+  "visualizations": {
+    "population": [
+      "motor_learning_output\\figures\\population_plots\\age_vs_success_rates.png",
+      "motor_learning_output\\figures\\population_plots\\correlation_matrix.png"
+    ],
+    "individual": []
+  }
+}
