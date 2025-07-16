@@ -1,5 +1,5 @@
 {
-  "timestamp": "20250716_152757",
+  "timestamp": "20250716_164407",
   "n_subjects": 66,
   "analyses": {
     "regression": {
@@ -20,7 +20,10 @@
     }
   },
   "visualizations": {
-    "population": [],
+    "population": [
+      "motor_learning_output\\figures\\population_plots\\age_vs_success_rates.png",
+      "motor_learning_output\\figures\\population_plots\\correlation_matrix.png"
+    ],
     "individual": []
   }
 }
