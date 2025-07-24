@@ -1,0 +1,4 @@
+Age Group,N,Trial Effect Significant,F-statistic,Effect Size (η²),VIS1 Success Rate,INVIS Success Rate,VIS2 Success Rate,Post-hoc Results
+7-10,17,No,0.85,0.010,0.440,0.396,0.431,0/3 significant
+11-14,17,Yes,3.47,0.042,0.465,0.518,0.574,0/3 significant
+15-18,18,Yes,6.59,0.063,0.667,0.762,0.792,2/3 significant

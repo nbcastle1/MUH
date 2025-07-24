@@ -1,0 +1,10 @@
+Age Group,Comparison,Mean Difference,t-statistic,p-value (corrected),Cohen's d,Effect Size,Significant
+7-10,INVIS VS VIS1,0.000,-1.457,0.493,-0.216,Small,No
+,INVIS VS VIS2,0.000,-0.903,1.000,-0.172,Negligible,No
+,VIS1 VS VIS2,0.000,0.235,1.000,0.046,Negligible,No
+11-14,INVIS VS VIS1,0.000,1.446,0.503,0.231,Small,No
+,INVIS VS VIS2,0.000,-1.465,0.487,-0.243,Small,No
+,VIS1 VS VIS2,0.000,-2.257,0.115,-0.503,Medium,No
+15-18,INVIS VS VIS1,0.000,2.672,0.048,0.434,Small,Yes
+,INVIS VS VIS2,0.000,-0.943,1.000,-0.146,Negligible,No
+,VIS1 VS VIS2,0.000,-3.074,0.021,-0.544,Medium,Yes

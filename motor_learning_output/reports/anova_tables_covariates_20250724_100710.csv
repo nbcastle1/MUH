@@ -1,0 +1,18 @@
+Measure,Covariate,Correlation (r),p-value,Significant,Interpretation,Coefficient,95% CI
+Success Rate,Age,0.603,<0.001,Yes,Age effect on overall success rate,,
+,Motor Noise,-0.399,0.001,Yes,Motor noise effect on overall success rate,,
+,Asymmetry,-0.387,0.002,Yes,Asymmetry effect on overall success rate,,
+,Age (Mixed Effects),,<0.001,Yes,Change in success rate per unit increase in age,0.0393,"[0.0210, 0.0576]"
+,Motor Noise (Mixed Effects),,0.925,No,Change in success rate per unit increase in motor_noise,0.0503,"[-1.0017, 1.1022]"
+,Pref Asymmetry (Mixed Effects),,0.242,No,Change in success rate per unit increase in pref_asymmetry,-0.8343,"[-2.2323, 0.5637]"
+Mean Stride Length,Age,0.266,0.034,Yes,age effect on mean stride length,,
+,Motor Noise,-0.116,0.360,No,motor_noise effect on mean stride length,,
+,Age (Mixed Effects),,0.049,Yes,Change in mean stride length per unit increase in age,0.0103,"[0.0000, 0.0205]"
+,Motor Noise (Mixed Effects),,0.735,No,Change in mean stride length per unit increase in motor_noise,0.1017,"[-0.4868, 0.6903]"
+,Pref Asymmetry (Mixed Effects),,0.889,No,Change in mean stride length per unit increase in pref_asymmetry,0.0557,"[-0.7264, 0.8379]"
+Stride Length Variability,Age,-0.590,<0.001,Yes,Age effect on stride length variability,,
+,Motor Noise,0.437,<0.001,Yes,Motor noise effect on stride length variability,,
+,Asymmetry,0.408,<0.001,Yes,Asymmetry effect on stride length variability,,
+,Age (Mixed Effects),,<0.001,Yes,Change in stride variability per unit increase in age,-0.0181,"[-0.0275, -0.0086]"
+,Motor Noise (Mixed Effects),,0.704,No,Change in stride variability per unit increase in motor_noise,0.1055,"[-0.4385, 0.6496]"
+,Pref Asymmetry (Mixed Effects),,0.217,No,Change in stride variability per unit increase in pref_asymmetry,0.4555,"[-0.2675, 1.1785]"

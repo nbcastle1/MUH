@@ -1,0 +1,10 @@
+Measure,Effect,F-statistic,p-value,Effect Size (η²),Significant,n_subjects,n_observations,Error
+Success Rate,Trial Type,7.182,0.001,0.019,Yes,N/A,N/A,
+,Condition,1.879,0.175,0.006,No,,,
+,Trial × Condition,0.582,0.560,0.001,No,,,
+Mean Stride Length,Trial Type,0.626,0.536,0.005,No,64,384,
+,Condition,327.872,<0.001,0.736,Yes,,,
+,Trial × Condition,4.974,0.008,0.009,Yes,,,
+Stride Length Variability,Trial Type,1.263,0.286,0.005,No,64,384,
+,Condition,2.951,0.091,0.008,No,,,
+,Trial × Condition,2.077,0.130,0.005,No,,,
